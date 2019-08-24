@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_column="1"
+            android:padding="5dp"
+            android:text="Scores - User" />
+    </TableRow>
+
+    <View
+        android:layout_height="3dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="1"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userScore1"
+            android:text="0"
+            android:padding="5dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="2"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userScore2"
+            android:text="0"
+            android:padding="5dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="3"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userScore3"
+            android:text="0"
+            android:padding="5dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="4"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userScore4"
+            android:text="0"
+            android:padding="5dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="5"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userScore5"
+            android:text="0"
+            android:padding="5dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="6"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userScore6"
+            android:text="0"
+            android:padding="5dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="7"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userScore7"
+            android:text="0"
+            android:padding="5dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="8"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userScore8"
+            android:text="0"
+            android:padding="5dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="9"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userScore9"
+            android:text="0"
+            android:padding="5dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="10"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userScore10"
+            android:text="0"
+            android:padding="5dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <View
+        android:layout_height="10dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_column="1"
+            android:padding="5dp"
+            android:text="Scores - All Time" />
+    </TableRow>
+
+    <View
+        android:layout_height="3dp"
+        android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="1"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/allScore1"
+                android:text="0"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="2"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/allScore2"
+                android:text="0"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="3"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/allScore3"
+                android:text="0"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="4"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/allScore4"
+                android:text="0"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="5"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/allScore5"
+                android:text="0"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="6"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/allScore6"
+                android:text="0"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="7"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/allScore7"
+                android:text="0"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="8"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/allScore8"
+                android:text="0"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="9"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/allScore9"
+                android:text="0"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="10"
+                android:padding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/allScore10"
+                android:text="0"
+                android:padding="5dp"
+                android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>
